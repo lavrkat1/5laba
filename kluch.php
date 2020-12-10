@@ -37,9 +37,9 @@ LEFT JOIN stores ON kluch.id_stores=stores.id_stores"); // запрос на в�
                     echo "<td>$id_kluch</td><td>$kluch_date</td><td>$kluch_date_end</td><td>$games</td><td>$stores</td><td>$kluch_cost</td><td>$kluch_name</td>";
                 
  echo "<td><a href='edit_kluch.php?id_kluch=" . $row['id_kluch']
-. "'>Редактировать</a></td>"; // запуск скрипта для редактирования
+. "'>Редактировать</a></td>"; //Запуск редактирования
  echo "<td><a href='delete_ kluch.php?id_kluch=" . $row['id_kluch']
-. "'>Удалить</a></td>"; // запуск скрипта для удаления записи
+. "'>Удалить</a></td>"; //запуск удаления
  echo "</tr>";
                     $counter++;
                 }
